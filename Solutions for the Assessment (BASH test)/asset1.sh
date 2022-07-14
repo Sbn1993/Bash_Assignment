@@ -25,6 +25,11 @@ sleep 1
 echo "Fetching the desired output logs from log.txt file."
 grep -w "WARN\|ERROR" log.txt
 echo "-----------------------------------"
+
 sleep 1
 
 echo "*****Thank you for running this script*****"
+
+sleep 3
+
+exit
